@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header > h1 {
+    background-color: #6d6d6d;
+    text-align: center;
+    color: rgb(55, 158, 255);
+}
+
+body
+{
+    background-color: #4d4d4d;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+nav {
+    width: 100%;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #6d6d6d; 
+}
+
+ul {
+    list-style-type: none;
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+li { 
+    margin-right: 20px;
+}
+
+li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255); 
+    font-weight: bold;
+    transition: color 0.3s ease;  
+}
+
+li a:hover {
+    color: #53b1ff; /* Cor laranja ao passar o mouse */
+   
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: beige; 
+    border: 1px solid #333; 
+    color: black; 
+    border-radius: 5px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
+h2 {
+    color: rgb(33, 129, 255); 
+}
+
+.ACShools
+{
+    float: left;
+    text-align: left;
+}
+
+.menu
+{
+    color: white;
+}
+
+header
+{
+    width: 100%;
+    padding: 0px 15px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6d6d6d;
+    color: white;
+    display: flex;
+}
+
+.opcoes
+{
+    margin-top: 70px;
+    position: absolute;
+    width: 1600px;
+}
+
+main {
+    margin: auto;
+}
+
+main h1 {
+    color:white;
+    text-align: center;
+}
+
+.x {
+    margin-left: 48px;
+    text-align: left;
+    padding-top: 45px;
+    color: rgb(125, 170, 255);
+    font-variant: small-caps;
+}
+
+#o {
+    color: #4a92ff;
+    text-align: center;
+    margin-top: 20px;
+    font-size: xx-large;
+}
+
+.texto {
+    margin-top: 35px;
+    color: white;
+    text-align: justify;
+    margin-left: 18px;
+    margin-right: 20px;
+}
+
+ li {
+    font-size: larger;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.texto2 {
+    font-size: larger;
+    margin-top: 35px;
+    color: white;
+    text-align: justify;
+    margin-left: 45px;
+    margin-right: 35px;
+}
+
+#i {
+    padding-top: 30px;
+    height: 235px;
+    width: 720px;
+    display: block;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+img {
+    height: 36px;
+    width: 110px;
+}
+.e {
+    
+    color: white;
+    margin-left: 53px;
+}
